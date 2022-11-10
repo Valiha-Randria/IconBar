@@ -1,0 +1,21 @@
+.icon-bar {
+  width: 100%;
+  background-image: linear-gradient(to right, grey, lightblue, blue);
+  overflow: auto;
+}
+.icon-bar a {
+  width: 20%;
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 36px;
+  color: white;
+  transition: all 0.3s ease;
+}
+.icon-bar a:hover {
+  background-color: chartreuse;
+}
+.active {
+  background-color: #000;
+}
